@@ -1,0 +1,172 @@
+body{
+	margin-left: 0px;
+}
+
+a:link{
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+header div{
+	text-align: right;
+	padding-right: 10px;
+	font-size: 15px;
+	margin-top: 12px;
+	word-spacing: 1em;
+}
+
+header div #b1{
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	border: none;
+	background-color: white;
+	vertical-align: middle;
+}
+
+header div #b1:hover{
+	background-color: #FCF8F7;
+	cursor: pointer;
+}
+
+header div #b2:hover{
+	cursor: pointer;
+}
+
+header div img{
+	width: 20px;
+	height: 20px;
+	vertical-align: middle;
+	opacity: 60%;
+}
+
+header div #b2{
+	width: 117px;
+	height: 36px;
+	border: none;
+	border-radius: 5px;
+	background-color: #4285F4;
+	color: white;
+}
+
+header a{
+	color: black;
+}
+
+header a:visited{
+
+}
+
+section{
+	text-align: center;
+	margin-top: 20px;
+}
+
+section img{
+	width: 270px;
+	height: 90px;
+}
+
+section #recherche{
+	margin-top: 23px;
+	margin-bottom: 30px;
+}
+section #search_bar{
+	width: 580px;
+	height: 45px;
+	border-radius: 50px;
+	border: solid 1px #EDECEC;
+	padding-left: 50px;
+	background: url("images/search-dark.png") no-repeat;
+	background-position: 20px 14px;
+	background-size: 20px 20px;
+}
+
+section #search_bar:hover{
+	box-shadow: 0.7px 0.7px 2px #;
+}
+
+section #b1{
+	width: 150px;
+	height: 35px;
+	border: none;
+	border-radius: 5px;
+	background-color: #F9F8F8;
+}
+
+
+section #b2{
+	width: 140px;
+	height: 35px;
+	border: none;
+	border-radius: 5px;
+	background-color: #F9F8F8;
+}
+
+section .boutons{
+	word-spacing: 0.5em;
+}
+
+section a{
+	color: blue;
+}
+
+footer{
+	background-color: #F0EFEE;
+	position: absolute;
+	bottom: 0;
+	padding-bottom: 15px;
+	overflow: auto;
+	width: 100%;
+}
+
+footer #bloc1{
+	border-bottom: 1px solid #E0E0E0;
+	color: #454545;
+	padding-left: 33px;
+}
+
+footer #bloc2{
+	padding-top: 5px;
+	padding-left: 0px;
+	display: flex;
+	flex-direction: column;
+}
+
+footer #bloc2 img{
+	width: 13px;
+	height: 13px;
+}
+
+footer #carbone, #pub, #info{
+	margin: auto;
+	display: flex;
+}
+
+footer #carbone{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+footer #pub{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+footer #info{
+	margin-top: 10px;
+}
+
+footer a{
+	color: #454545;
+}
+
+footer #bloc2 a{
+	margin-left: 30px;
+}
+
+
+
