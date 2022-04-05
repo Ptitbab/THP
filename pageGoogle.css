@@ -1,5 +1,8 @@
 body{
 	margin-left: 0px;
+	font-family: arial;
+	font-size: 14px;
+	color: #202124;
 }
 
 a:link{
@@ -13,7 +16,7 @@ a:hover{
 header div{
 	text-align: right;
 	padding-right: 10px;
-	font-size: 15px;
+	font-size: 13px;
 	margin-top: 12px;
 	word-spacing: 1em;
 }
@@ -86,7 +89,7 @@ section #search_bar{
 }
 
 section #search_bar:hover{
-	box-shadow: 0.7px 0.7px 2px #;
+	box-shadow: 0.7px 0.7px 2px #202124;
 }
 
 section #b1{
@@ -94,7 +97,7 @@ section #b1{
 	height: 35px;
 	border: none;
 	border-radius: 5px;
-	background-color: #F9F8F8;
+	background-color: #F8F9FA;
 }
 
 
@@ -103,11 +106,15 @@ section #b2{
 	height: 35px;
 	border: none;
 	border-radius: 5px;
-	background-color: #F9F8F8;
+	background-color: #F8F9FA;
 }
 
 section .boutons{
 	word-spacing: 0.5em;
+}
+
+section p{
+	font-size: small;
 }
 
 section a{
@@ -115,17 +122,18 @@ section a{
 }
 
 footer{
-	background-color: #F0EFEE;
+	background-color: #F9F8FA;
 	position: absolute;
 	bottom: 0;
 	padding-bottom: 15px;
 	overflow: auto;
 	width: 100%;
+	color: #70757A;
+	font-size: 14px;
 }
 
 footer #bloc1{
 	border-bottom: 1px solid #E0E0E0;
-	color: #454545;
 	padding-left: 33px;
 }
 
@@ -161,7 +169,7 @@ footer #info{
 }
 
 footer a{
-	color: #454545;
+	color: #70757A;
 }
 
 footer #bloc2 a{
